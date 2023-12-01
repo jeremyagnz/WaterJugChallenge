@@ -34,7 +34,7 @@ curl --location 'http://localhost:8000/api/challenge' \
     "y": 10,
     "z": 4
 }'
-
+```
 
 ## WaterJugController
 El WaterJugController valida que se proporcionen los parámetros requeridos para ejecutar la acción correctamente. 
