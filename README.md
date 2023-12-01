@@ -26,13 +26,14 @@ Para ejecutar el proyecto, asegúrate de tener Node.js instalado y sigue estos p
 POST /api/challenge
 Este endpoint permite realizar el Water Jug Challenge. Se deben proporcionar los siguientes parámetros en formato JSON:
 
-`curl --location 'http://localhost:8000/api/challenge' \
+```bash
+curl --location 'http://localhost:8000/api/challenge' \
 --header 'Content-Type: application/json' \
 --data '{
     "x": 2,
     "y": 10,
     "z": 4
-}'`
+}'
 
 
 ## WaterJugController
